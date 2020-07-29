@@ -10,7 +10,7 @@ export default function Carous() {
             style={{
               width: "60%",
               marginLeft: "20%",
-              marginTop: "8%",
+              marginTop: "5%",
             }}
           >
             <Carousel.Item>

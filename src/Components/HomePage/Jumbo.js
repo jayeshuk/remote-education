@@ -3,7 +3,7 @@ import { Jumbotron, Button, Col, Form, Container } from "react-bootstrap";
 
 export default function Jumbo() {
   return (
-    <Jumbotron fluid style={{ marginTop: "8%" }}>
+    <Jumbotron fluid style={{ marginTop: "8%" }} className="text-center">
       <h2>Welcome to Edumote</h2>
       <p>Start learning with your first Virtual classroom. Go to Class!</p>
       <Container>

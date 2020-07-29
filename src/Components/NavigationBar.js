@@ -1,8 +1,9 @@
 import React from "react";
 import { Navbar, Button, Nav } from "react-bootstrap";
 import img from "../Data/Images/logo3.png";
-import LoginModal from "../Components/HomePage/LoginModal";
-import CreateAccModal from "../Components/HomePage/CreateAccModal";
+import LoginModal from "./HomePage/Login/LoginModal";
+import CreateAccModal from "./HomePage/CreateAccount/CreateAccModal";
+import { Link } from "react-router-dom";
 
 export default function NavigationBar() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -11,7 +12,7 @@ export default function NavigationBar() {
   return (
     <>
       <Navbar fixed="top" bg="light" variant="light">
-        <Navbar.Brand href="#home">
+        <Link to={"/"} className="nav-link">
           <img
             src={img}
             width="40"
@@ -19,26 +20,26 @@ export default function NavigationBar() {
             className="d-inline-block align-top"
             alt="Edumote logo"
           />
-        </Navbar.Brand>
-        <Navbar.Brand href="#home" style={{ fontSize: "30px" }}>
+        </Link>
+        <Navbar.Brand href="/" style={{ fontSize: "30px" }}>
           Edumote
         </Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#home" style={{ fontSize: "20px" }}>
+          <Link to={""} className="nav-link">
             Home
-          </Nav.Link>
-          <Nav.Link href="#features" style={{ fontSize: "20px" }}>
+          </Link>
+          <Link to={"features"} className="nav-link">
             Features
-          </Nav.Link>
-          <Nav.Link href="#pricing" style={{ fontSize: "20px" }}>
+          </Link>
+          <Link to={"pricing"} className="nav-link">
             Pricing
-          </Nav.Link>
-          <Nav.Link href="#contactus" style={{ fontSize: "20px" }}>
+          </Link>
+          <Link to={"contactus"} className="nav-link">
             Contact Us
-          </Nav.Link>
-          <Nav.Link href="#about" style={{ fontSize: "20px" }}>
+          </Link>
+          <Link to={"about"} className="nav-link">
             About
-          </Nav.Link>
+          </Link>
         </Nav>
         <Nav className="mr-right">
           <Nav.Item className="mr-sm-2">
