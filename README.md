@@ -1,3 +1,20 @@
+# Edumote - Remote Education for Everyone
+
+## Snapshots of the Web-App
+
+### Dashboard - 1
+![image](https://user-images.githubusercontent.com/46965764/110812835-f2d60f00-82ad-11eb-9c25-cc12532b5b7b.JPG)
+
+### Dashboard - 2
+![image](https://user-images.githubusercontent.com/46965764/110812857-f8cbf000-82ad-11eb-9db6-1dccffb50077.JPG)
+
+
+## Technology Stack
+### Framework - ReactJS
+### UI Library - Material-UI
+### Libraries - ChartJS
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
