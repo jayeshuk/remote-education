@@ -21,13 +21,14 @@ import {
   Settings,
 } from "@material-ui/icons";
 import SvgIcon from "@material-ui/core/SvgIcon";
-import HomeFrag from "./DrawerFragments/HomeFrag";
+import HomeFrag from "./DrawerFragments/HomeFragment/HomeFrag";
 import AssessmentsFrag from "./DrawerFragments/AssessmentsFrag";
 import CoursesFrag from "./DrawerFragments/CoursesFrag";
 import JoinFrag from "./DrawerFragments/JoinFrag";
 import MyCoursesFrag from "./DrawerFragments/MyCoursesFrag";
 import NotesFrag from "./DrawerFragments/NotesFrag";
 import SettingsFrag from "../SettingsFrag";
+import Avatar from "@material-ui/core/Avatar";
 // import App from "../../App";
 // import Homepage from "../HomePage/HomePage";
 
@@ -114,6 +115,9 @@ export default function MainDashboard() {
             <Typography variant="h6" noWrap>
               Student Profile
             </Typography>
+            {/* <div style={{ marginLeft:  }}>
+              <Avatar className={classes.orange}>N</Avatar>
+            </div> */}
           </Toolbar>
         </AppBar>
         <Drawer
