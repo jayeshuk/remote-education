@@ -79,7 +79,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 ## Technology Stack
-### Framework - ReactJS
-### UI Library - Material-UI
-### Libraries - ChartJS
-
+### Framework - ReactJS [https://reactjs.org/]
+### UI Library - Material-UI [https://material-ui.com/]
+### Libraries - ChartJS [https://www.chartjs.org/]
